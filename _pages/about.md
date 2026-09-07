@@ -4,10 +4,6 @@ author_profile: true
 permalink: /
 ---
 
-# Upakramanika Bishnu
-
----
-
 ## <i class="fas fa-brain"></i> Neuroscience Projects
 
 * **Predictive Mouse Ultrasonic Vocalization Sequences: Altered Learning from Prediction Errors in Mouse Models of ASDs**  
