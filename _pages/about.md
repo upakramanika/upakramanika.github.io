@@ -4,7 +4,7 @@ title: ""
 author_profile: true
 permalink: /
 ---
-![brain](/images/brain.png)
+![brain](/images/brain.jpg)
 
 ## <i class="fas fa-brain"></i> Neuroscience Projects
 
@@ -74,7 +74,7 @@ permalink: /
 
 ---
 
-![biology](/images/bio.png)
+![biology](/images/bio.jpg)
 
 ## <i class="fas fa-dna"></i> Biology Projects and Experiences
 
@@ -162,7 +162,7 @@ permalink: /
 
 ---
 
-![violin](/images/violin.png)
+![violin](/images/violin.jpg)
 
 ## <i class="fas fa-music"></i> Extra Academic Activities
 
