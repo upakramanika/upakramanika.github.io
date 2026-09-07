@@ -1,5 +1,6 @@
 ---
 layout: single
+title: ""
 author_profile: true
 permalink: /
 ---
@@ -116,15 +117,20 @@ permalink: /
   Indian Institute of Technology, Kharagpur  
 
 * **Prof. Swanand Marathe**    
-  [Personal Page]([https://informationprocessinglab.weebly.com/](https://sites.google.com/iitdh.ac.in/swanandlab/home))     
+  [Personal Page](https://sites.google.com/iitdh.ac.in/swanandlab/home)     
   HOD, Biosciences and Bioengineering    
   Indian Institute of Technology, Dharwad  
 
 * **Prof. Subhamoy Maitra**    
-  [Personal Page]([https://informationprocessinglab.weebly.com/](https://isi.irins.org/profile/61161))   
+  [Personal Page](https://isi.irins.org/profile/61161)   
   Professor (Higher Administrative Grade)    
   Head, Applied Statistics Unit    
-  Indian Statistical Institute, Kolkata  
+  Indian Statistical Institute, Kolkata
+
+* **Prof. Sudhanshu Shukla**    
+  [Personal Page](https://www.sudhanshukla.com/)   
+  Associate Professor, Biosciences and Bioengineering 
+  Indian Institute of Technology, Dharwad  
 
 ---
 
