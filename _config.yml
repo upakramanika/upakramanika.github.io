@@ -23,7 +23,7 @@ repository               : "upakramanika/upakramanika.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "me.png"
   name             : "Upakramanika (Upo) Bishnu"
   pronouns         : "she/her"  
   bio              : "Super passionate about neuroscience! 🧠"
