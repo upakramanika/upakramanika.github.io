@@ -170,7 +170,7 @@ permalink: /
 
 ## <i class="fas fa-language"></i> Languages
 
-* English: IELTS 8.0  (Candidate Number 025930, Centre Number IN855, Test Date 27 Jun 2026)
+* English: IELTS 8.0  
 * Bengali: Native language  
 * German: Goethe-Zertifikat A1
 * Hindi: Limited working proficiency
