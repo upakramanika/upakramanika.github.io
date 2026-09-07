@@ -34,6 +34,8 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
+$heading-light              : $primary-color;
+
 /* Default / Light CSS Custom Properties */
 :root,
 html[data-theme="light"] {
@@ -53,4 +55,6 @@ html[data-theme="light"] {
   --global-text-color                 : #{$text};
   --global-text-color-light           : #{$light-primary-color};
   --global-thead-color                : #{$background-lighter};
+  --global-heading-color              : #{$heading};
+  --global-bold-color                 : #{$heading};
 }
