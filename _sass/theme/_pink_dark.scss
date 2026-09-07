@@ -17,6 +17,8 @@ $link-dark-hover            : mix(#000, $link-dark-custom, 25%);
 $link-light-hover           : mix(#fff, $link-dark-custom, 25%);
 $footer-dark                : $primary-color-dark;
 
+$heading-dark               : #678b44;
+
 
 /* Explicit manual override to Dark Mode */
 html[data-theme="dark"] {
@@ -36,4 +38,6 @@ html[data-theme="dark"] {
   --global-text-color                 : #{$text-dark};
   --global-text-color-light           : #{$light-primary-color-dark};
   --global-thead-color                : #{$background-lighter-dark};
+  --global-heading-color              : #{$heading-dark};
+  --global-bold-color                 : #{$heading-dark};
 }
