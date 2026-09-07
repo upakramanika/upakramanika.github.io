@@ -1,6 +1,8 @@
+
+
 /* ==========================================================================
    FOOTER
-   ========================================================================== */
+   ========================================================================== 
 
 .page__footer {
   @include clearfix;
@@ -14,10 +16,10 @@
   width: 100%;
   clear: both;
 
-  /* keep footer in normal document flow so custom widgets do not overlap content */
+  /* keep footer in normal document flow so custom widgets do not overlap content 
   height: auto;
 
-  /* keep the footer on the bottom of the page */
+  /* keep the footer on the bottom of the page 
   position: fixed;
   bottom: 0;
 
@@ -58,7 +60,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* don't pin the footer on mobile devices */
+  /* don't pin the footer on mobile devices 
   .page__footer {
     position: relative;
     bottom: auto;
@@ -101,4 +103,8 @@
       white-space: nowrap;
     }
   }
+}*/
+
+.page__footer {
+  display: none !important;
 }
