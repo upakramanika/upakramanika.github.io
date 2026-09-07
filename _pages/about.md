@@ -4,6 +4,7 @@ title: ""
 author_profile: true
 permalink: /
 ---
+![brain](/images/brain.png)
 
 ## <i class="fas fa-brain"></i> Neuroscience Projects
 
@@ -41,6 +42,8 @@ permalink: /
 
 ---
 
+![burning number conjecture](/images/burning.png)
+
 ## <i class="fas fa-code"></i> Computational Projects and Experiences
 
 * **AI-ML Project: Built a Chess-Bot**  
@@ -70,6 +73,8 @@ permalink: /
   * LaTeX  
 
 ---
+
+![biology](/images/bio.png)
 
 ## <i class="fas fa-dna"></i> Biology Projects and Experiences
 
@@ -156,6 +161,8 @@ permalink: /
   * Medium of Instruction: English  
 
 ---
+
+![violin](/images/violin.png)
 
 ## <i class="fas fa-music"></i> Extra Academic Activities
 
