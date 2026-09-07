@@ -6,12 +6,12 @@
 $primary-color              : #e758a3;
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
-$light-primary-color        : mix(#000, $primary-color, 50%);
+$light-primary-color        : mix(#fff, $primary-color, 50%);
 
 $background                 : #f2e3ee;
 $background-light           : mix(#fff, $background, 20%);
 $background-lighter         : mix(#fff, $background, 90%);
-$text                       : #c15285; // #e758a3;
+$text                       : #c15285;
 $link                       : #668050;
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
@@ -24,7 +24,7 @@ $notice-color               : #92748b;
 $success-color              : #8bb862;
 $warning-color              : #f85344;
 
-/* Other basic settings for the template */
+/* Basic layout settings */
 $border-radius              : 4px;
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $global-transition          : all 0.2s ease-in-out;
@@ -34,22 +34,23 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Light theme for the site */
-:root {
-    --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$footer};
-    --global-border-color               : #{$light-primary-color};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-primary-color};
-    --global-fig-caption-color          : #{$light-primary-color};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$primary-color};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #{$light-primary-color};
-    --global-thead-color                : #{$background-lighter};
+/* Default / Light CSS Custom Properties */
+:root,
+html[data-theme="light"] {
+  --global-base-color                 : #{$primary-color};
+  --global-bg-color                   : #{$background};
+  --global-footer-bg-color            : #{$footer};
+  --global-border-color               : #{$light-primary-color};
+  --global-dark-border-color          : #{$background-light};
+  --global-code-background-color      : #fafafa;
+  --global-code-text-color            : #{$darker-primary-color};
+  --global-fig-caption-color          : #{$light-primary-color};
+  --global-link-color                 : #{$link};
+  --global-link-color-hover           : #{$link-dark};
+  --global-link-color-visited         : #{$link-light};
+  --global-masthead-link-color        : #{$text};
+  --global-masthead-link-color-hover  : #{$primary-color};
+  --global-text-color                 : #{$text};
+  --global-text-color-light           : #{$light-primary-color};
+  --global-thead-color                : #{$background-lighter};
 }
