@@ -6,8 +6,6 @@ permalink: /
 
 # Upakramanika Bishnu
 
-she/her | upakramanika@gmail.com | github.com/upakramanika | linkedin.com/in/upakramanika  
-
 ---
 
 ## <i class="fas fa-brain"></i> Neuroscience Projects
@@ -45,7 +43,7 @@ she/her | upakramanika@gmail.com | github.com/upakramanika | linkedin.com/in/upa
 
 ---
 
-## <i class="fas fa-laptop-code"></i> Computational Projects and Experiences
+## <i class="fas fa-code"></i> Computational Projects and Experiences
 
 * **AI-ML Project: Built a Chess-Bot**  
   * **Prabuchandran K J**, IIT Dharwad (Jan 2024-April 2024)  
@@ -155,7 +153,7 @@ she/her | upakramanika@gmail.com | github.com/upakramanika | linkedin.com/in/upa
 
 ---
 
-## <i class="fas fa-award"></i> Extra Academic Activities
+## <i class="fas fa-music"></i> Extra Academic Activities
 
 * Member of Department Undergraduate Committee of IIT Dharwad  
 * Volunteer for Summer School by BioSciences and BioEngineering Department of IIT Dharwad  
@@ -170,5 +168,5 @@ she/her | upakramanika@gmail.com | github.com/upakramanika | linkedin.com/in/upa
 
 * English: IELTS 8.0  
 * Bengali: Native language  
-* German: Goethe-Zertifikat A1[cite: 1]
-* Hindi: Limited working proficiency[cite: 1]
+* German: Goethe-Zertifikat A1
+* Hindi: Limited working proficiency
