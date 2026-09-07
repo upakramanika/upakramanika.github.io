@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-IN"
 site_theme               : "pink" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Academic Portfolio"
+title                    : "Upakramanika's Academic Portfolio"
 title_separator          : "-"
 name                     : &name "Upakramanika Bishnu"
 description              : &description "Upakramanika Bishnu's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
