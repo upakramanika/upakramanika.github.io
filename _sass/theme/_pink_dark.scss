@@ -6,12 +6,12 @@
 $primary-color              : #4b6e2e;
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
-$light-primary-color        : mix(#000, $primary-color, 50%);
+$light-primary-color        : mix(#111, $primary-color, 50%);
 
-$background                 : #1d2c0e;
+$background                 : #364230;
 $background-light           : mix(#fff, $background, 20%);
 $background-lighter         : mix(#fff, $background, 90%);
-$text                       : #b4efb6;
+$text                       : #afb8ac;
 $link                       : #eaa6bc;
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
