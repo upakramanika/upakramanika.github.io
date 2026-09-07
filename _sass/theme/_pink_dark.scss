@@ -2,54 +2,60 @@
     PINK THEME - dark VERSION - I made this one because i like PINK very much ... oo what if i make this one green
     ========================================================================== */
 
-/* Color codes used for the theme */
-$primary-color              : #4b6e2e;
-$dark-primary-color         : mix(#000, $primary-color, 40%);
-$darker-primary-color       : mix(#000, $primary-color, 60%);
-$light-primary-color        : mix(#111, $primary-color, 50%);
+/* Color codes used for dark theme */
+$primary-color-dark         : #4b6e2e;
+$dark-primary-color-dark    : mix(#000, $primary-color-dark, 40%);
+$darker-primary-color-dark  : mix(#000, $primary-color-dark, 60%);
+$light-primary-color-dark   : mix(#fff, $primary-color-dark, 30%);
 
-$background                 : #364230;
-$background-light           : mix(#fff, $background, 20%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #afb8ac;
-$link                       : #eaa6bc;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
-$footer                     : $primary-color;
+$background-dark            : #364230;
+$background-light-dark      : mix(#fff, $background-dark, 20%);
+$background-lighter-dark    : mix(#fff, $background-dark, 90%);
+$text-dark                  : #afb8ac;
+$link-dark-custom           : #eaa6bc;
+$link-dark-hover            : mix(#000, $link-dark-custom, 25%);
+$link-light-hover           : mix(#fff, $link-dark-custom, 25%);
+$footer-dark                : $primary-color-dark;
 
-/* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #9cad94;
-$notice-color               : #899c74;
-$success-color              : #8bb862;
-$warning-color              : #f85344;
+/* Dark Theme Selector: Matches explicit toggle OR system dark mode */
+html[data-theme="dark"],
+html:not([data-theme="light"]) {
+  @media (prefers-color-scheme: dark) {
+    --global-base-color                 : #{$primary-color-dark};
+    --global-bg-color                   : #{$background-dark};
+    --global-footer-bg-color            : #{$footer-dark};
+    --global-border-color               : #{$light-primary-color-dark};
+    --global-dark-border-color          : #{$background-light-dark};
+    --global-code-background-color      : #242c20;
+    --global-code-text-color            : #{$text-dark};
+    --global-fig-caption-color          : #{$light-primary-color-dark};
+    --global-link-color                 : #{$link-dark-custom};
+    --global-link-color-hover           : #{$link-dark-hover};
+    --global-link-color-visited         : #{$link-light-hover};
+    --global-masthead-link-color        : #{$text-dark};
+    --global-masthead-link-color-hover  : #{$primary-color-dark};
+    --global-text-color                 : #{$text-dark};
+    --global-text-color-light           : #{$light-primary-color-dark};
+    --global-thead-color                : #{$background-lighter-dark};
+  }
+}
 
-/* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
-$masthead-height            : 70px;
-$navicon-width              : 28px;
-$navicon-height             : 4px;
-$sidebar-link-max-width     : 250px;
-$sidebar-screen-min-width   : 1024px;
-
-/* Light theme for the site */
+/* Explicit manual override to Dark Mode */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$footer};
-    --global-border-color               : #{$light-primary-color};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-primary-color};
-    --global-fig-caption-color          : #{$light-primary-color};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$primary-color};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #{$light-primary-color};
-    --global-thead-color                : #{$background-lighter};
+  --global-base-color                 : #{$primary-color-dark};
+  --global-bg-color                   : #{$background-dark};
+  --global-footer-bg-color            : #{$footer-dark};
+  --global-border-color               : #{$light-primary-color-dark};
+  --global-dark-border-color          : #{$background-light-dark};
+  --global-code-background-color      : #242c20;
+  --global-code-text-color            : #{$text-dark};
+  --global-fig-caption-color          : #{$light-primary-color-dark};
+  --global-link-color                 : #{$link-dark-custom};
+  --global-link-color-hover           : #{$link-dark-hover};
+  --global-link-color-visited         : #{$link-light-hover};
+  --global-masthead-link-color        : #{$text-dark};
+  --global-masthead-link-color-hover  : #{$primary-color-dark};
+  --global-text-color                 : #{$text-dark};
+  --global-text-color-light           : #{$light-primary-color-dark};
+  --global-thead-color                : #{$background-lighter-dark};
 }
