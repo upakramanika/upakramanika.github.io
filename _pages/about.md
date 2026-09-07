@@ -1,56 +1,174 @@
 ---
-permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+layout: single
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+permalink: /
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+# Upakramanika Bishnu
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+she/her | upakramanika@gmail.com | github.com/upakramanika | linkedin.com/in/upakramanika  
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+---
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## <i class="fas fa-brain"></i> Neuroscience Projects
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+* **Predictive Mouse Ultrasonic Vocalization Sequences: Altered Learning from Prediction Errors in Mouse Models of ASDs**  
+  * **5th Year Master's Project**  
+  * **Prof. Sharba Bandyopadhyay**, Information Processing Lab, IIT Kharagpur (June 2026-May 2027)  
+  * Designing and updating the experiment protocol  
+  * Behaviour experiment: Go No-Go Oddball paradigm using Mouse Ultrasonic Vocalisation Sequences  
+  * Speaker Calibration for playing Ultrasonic Vocalisation Sequences  
+  * Animal handling for behaviour experiment  
+  * MATLAB programming language  
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+* **Neuroanatomical Anterograde and Retrograde Tracing between ACC and AC in Mouse Brain**  
+  * **5th Year Master's Project**  
+  * **Prof. Sharba Bandyopadhyay**, Information Processing Lab, IIT Kharagpur (June 2026-May 2027)  
+  * Injection of Dextran and Cholera Toxin B in Mouse Anterior Cingulate Cortex and Auditory Cortex  
+  * Stereotaxic Apparatus, Nanoject II injector  
+  * Perfusion with Paraformaldehyde  
+  * Slide preparation and Imaging using microscope  
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+* **Computational Neuroscience Project**  
+  * **5th Year Master's Project**  
+  * **Prof. Sharba Bandyopadhyay**, Information Processing Lab, IIT Kharagpur (June 2026-May 2027)  
+  * Simulating Emergence of Spontaneous Assembly Activity in Developing Neural Networks without Afferent Input  
+  * MATLAB programming language  
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+* **CNN for Astrocyte Images**  
+  * **4th year, 8th Semester Minor Project**  
+  * **Prof. Swanand Marathe**, Neuroscience Lab, IIT Dharwad (Jan 2026-Apr 2026)  
+  * Processed Astrocyte Images  
+  * Used K-means clustering  
+  * Built CNN (Convolutional Neural Network) to Classify Astrocytes  
+  * Python programming language  
 
-**Markdown generator**
+---
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+## <i class="fas fa-laptop-code"></i> Computational Projects and Experiences
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+* **AI-ML Project: Built a Chess-Bot**  
+  * **Prabuchandran K J**, IIT Dharwad (Jan 2024-April 2024)  
+  * Agentic AI with two Agents  
+  * Alpha-Beta Pruning  
+  * Quiescent Search  
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+* **Math for Data Science Project**  
+  * **Prabuchandran K J**, IIT Dharwad (Aug 2024 - Nov 2024)  
+  * Used SVD (Singular Value Decomposition) to Compress Images and Videos  
+  * UMAP, t-SNE, PCA  
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+* **Deep Learning Project on Computer Vision**  
+  * **Prof. Vandana Bharti**, IIT Dharwad (Aug 2025-Nov 2025)  
+  * Underwater Object Detection using Pattern Recognition of Images  
+  * CNN  
+
+* **Quantum Algorithms and Qiskit Implementation**  
+  * **Prof. Subhamoy Maitra**, Indian Statistical Institute, Kolkata (May 2024-Jul 2024)  
+  * Deutsch-Jozsa Algorithm  
+  * Arithmetic Operations using Quantum Gates  
+
+* **Topics in Graph Theory**  
+  * **Prof. Sagnik Sen**, IIT Dharwad (Aug 2023-Nov 2023)  
+  * Presentation on Burning-Number Conjecture  
+  * LaTeX  
+
+---
+
+## <i class="fas fa-dna"></i> Biology Projects and Experiences
+
+* **Cell Biology Lab Experience**  
+  * **Prof. Sudhanshu Shukla**, Cancer Biology Lab, IIT Dharwad (Apr 2023-Sep 2024)  
+  * Cell Culture Techniques  
+  * RNA Isolation and Quantification  
+  * Plasmid Isolation  
+  * Western Blot  
+  * cDNA Synthesis  
+  * PCR, Gel-Electrophoresis  
+  * Flow Cytometry  
+
+* **Project in Molecular Biology**  
+  * **Prof. Sudhanshu Shukla**, Cancer Biology Lab, IIT Dharwad (Aug 2023-Nov 2023)  
+  * Techniques in Molecular Biology  
+  * Report on PCR  
+  * Report on Plasmid Isolation  
+
+* **Bioinformatics Lab**  
+  * **Prof. Badri Nath Dubey**, IIT Dharwad (Jan 2026-Apr 2026)  
+  * PyMol  
+  * Geneious Prime  
+  * Familiarised with: Uniprot, SOPMA, JPred, RCSB, RNACentral database, RNAstructure, RNAFold WebServer, Interpro, PSIPRED 4.0, AlphaFold  
+  * BLASTn, BLASTX, BLASTP, Predict RNA Secondary Structure, Protein domains, Predict protein secondary structure, Predict protein folding  
+
+---
+
+## <i class="fas fa-book-open"></i> Courses Taken
+
+* **Neuroscience:** Computational Neuroscience (IIT Kharagpur), Molecular and Cellular Neuroscience  
+* **Biology:** Molecular Biology of Cancer, Genomics and Proteomics, Genetic Engineering Lab, Biostatistics, Molecular Biology Techniques, Microbiology Techniques, Cell Culture Techniques, Immunology, Human Anatomy and Physiology, Biomolecules, Molecular Biology, Cell Biology and Genetics, Molecular Mechanism of Human Diseases, Bioinformatics Lab  
+* **Computing:** Statistical Pattern Recognition, Optimization Theory and Algorithms, Approximation Algorithms, Artificial Intelligence and Machine Learning, Deep Learning, Quantum Information and Computing, Data Structures and Algorithms, C, Python  
+* **Certificate Course on Quantum Computing:** Systems and Architecture  
+* **Mathematics:** Probability, Statistics, Calculus, Advanced Linear Algebra, Differential Equations, Probability Models and Applications, Topics in Graph Theory  
+
+---
+
+## <i class="fas fa-user-friends"></i> Referees
+
+* **Prof. Sharba Bandyopadhyay**    
+  sharba@ece.iitkgp.ac.in    
+  Associate Professor, Electronics and Electrical Communication Engineering    
+  Indian Institute of Technology, Kharagpur  
+
+* **Prof. Swanand Marathe**    
+  swanand@iitdh.ac.in    
+  HOD, Biosciences and Bioengineering    
+  Indian Institute of Technology, Dharwad  
+
+* **Prof. Subhamoy Maitra**    
+  subho@isical.ac.in    
+  Professor (Higher Administrative Grade)    
+  Head, Applied Statistics Unit    
+  Indian Statistical Institute, Kolkata  
+
+---
+
+## <i class="fas fa-graduation-cap"></i> Education
+
+* **BS-MS (5 year Integrated)**  
+  * IIT Dharwad, Interdisciplinary Sciences (December 2022 - July 2027)  
+  * Major: Biology  
+  * Minor: Data Science and Artificial Intelligence  
+  * CPI: 8.61/10  
+  * Medium of Instruction: English  
+
+* **ISC (Class 12)**  
+  * The Heritage School (April 2020 - April 2022)  
+  * Stream: Science (Physics, Chemistry, Mathematics, Biology)  
+  * Score: 90.25%  
+  * Medium of Instruction: English  
+
+* **ICSE (Class 10)**  
+  * The Heritage School (April 2018 - April 2020)  
+  * Stream: Science  
+  * Score: 94.40%  
+  * Medium of Instruction: English  
+
+---
+
+## <i class="fas fa-award"></i> Extra Academic Activities
+
+* Member of Department Undergraduate Committee of IIT Dharwad  
+* Volunteer for Summer School by BioSciences and BioEngineering Department of IIT Dharwad  
+* Wellness Representative of IIT Dharwad  
+* Secretary of Abhikalpa, Design Club of IIT Dharwad  
+* Member of Technical Council of IIT Dharwad  
+* Second Violinist of Kolkata Symphony Orchestra, Grade 5 ABRSM  
+
+---
+
+## <i class="fas fa-language"></i> Languages
+
+* English: IELTS 8.0  
+* Bengali: Native language  
+* German: Goethe-Zertifikat A1[cite: 1]
+* Hindi: Limited working proficiency[cite: 1]
