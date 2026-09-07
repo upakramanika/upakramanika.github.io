@@ -17,7 +17,7 @@ permalink: /
   * Behaviour experiment: Go No-Go Oddball paradigm using Mouse Ultrasonic Vocalisation Sequences  
   * Speaker Calibration for playing Ultrasonic Vocalisation Sequences  
   * Animal handling for behaviour experiment  
-  * MATLAB programming language  
+  * MATLAB programming language
 
 * **Neuroanatomical Anterograde and Retrograde Tracing between ACC and AC in Mouse Brain**  
   * **5th Year Master's Project**  
@@ -39,7 +39,8 @@ permalink: /
   * Processed Astrocyte Images  
   * Used K-means clustering  
   * Built CNN (Convolutional Neural Network) to Classify Astrocytes  
-  * Python programming language  
+  * Python programming language
+  * [I made this presentation for this project](https://docs.google.com/presentation/d/17sIf6ADK_jxlvjnijrgSdMp8GA3fmN6DrzFHBVKb_O8/edit?usp=sharing)
 
 ---
 
@@ -49,7 +50,7 @@ permalink: /
   * **Prabuchandran K J**, IIT Dharwad (Jan 2024-April 2024)  
   * Agentic AI with two Agents  
   * Alpha-Beta Pruning  
-  * Quiescent Search  
+  * Quiescent Search [explanation](https://docs.google.com/presentation/d/1CBs5TYRkJIOmzxvIoShLzFcqEI0x7cKvkNQCQK904SA/edit?usp=sharing)
 
 * **Math for Data Science Project**  
   * **Prabuchandran K J**, IIT Dharwad (Aug 2024 - Nov 2024)  
@@ -96,7 +97,8 @@ permalink: /
   * PyMol  
   * Geneious Prime  
   * Familiarised with: Uniprot, SOPMA, JPred, RCSB, RNACentral database, RNAstructure, RNAFold WebServer, Interpro, PSIPRED 4.0, AlphaFold  
-  * BLASTn, BLASTX, BLASTP, Predict RNA Secondary Structure, Protein domains, Predict protein secondary structure, Predict protein folding  
+  * BLASTn, BLASTX, BLASTP, Predict RNA Secondary Structure, Protein domains, Predict protein secondary structure, Predict protein folding
+  * [Made a super chaotic presentation for this course haha](https://docs.google.com/presentation/d/1mwksRV2W0rgIfgF0Yk1aWqKXXTgIVPrQ/edit?usp=sharing&ouid=110792344000961218892&rtpof=true&sd=true)
 
 ---
 
@@ -113,17 +115,17 @@ permalink: /
 ## <i class="fas fa-user-friends"></i> Referees
 
 * **Prof. Sharba Bandyopadhyay**    
-  sharba@ece.iitkgp.ac.in    
+  [Personal Page](https://informationprocessinglab.weebly.com/)  
   Associate Professor, Electronics and Electrical Communication Engineering    
   Indian Institute of Technology, Kharagpur  
 
 * **Prof. Swanand Marathe**    
-  swanand@iitdh.ac.in    
+  [Personal Page]([https://informationprocessinglab.weebly.com/](https://sites.google.com/iitdh.ac.in/swanandlab/home))     
   HOD, Biosciences and Bioengineering    
   Indian Institute of Technology, Dharwad  
 
 * **Prof. Subhamoy Maitra**    
-  subho@isical.ac.in    
+  [Personal Page]([https://informationprocessinglab.weebly.com/](https://isi.irins.org/profile/61161))   
   Professor (Higher Administrative Grade)    
   Head, Applied Statistics Unit    
   Indian Statistical Institute, Kolkata  
