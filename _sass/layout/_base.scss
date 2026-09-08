@@ -353,14 +353,14 @@ h1, h2, h3, h4, h5, h6,
 .page__title,
 .page__content h2,
 .page__content h3 {
-  color: #859e5e;
+  color: #db6793;
 }
 
 /* Target bold text */
 strong, b,
 .page__content strong,
 .page__content b {
-  color: #859e5e; 
+  color: #db6793; 
 }
 
 /* Dark mode overrides */
@@ -369,13 +369,13 @@ html[data-theme="dark"] {
   .page__title,
   .page__content h2,
   .page__content h3 {
-    color: #db6793;
+    color: #859e5e;
   }
 
   strong, b,
   .page__content strong,
   .page__content b {
-    color: #db6793;
+    color: #859e5e;
   }
 }
 /* text colours */
