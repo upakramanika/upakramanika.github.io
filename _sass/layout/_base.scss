@@ -347,6 +347,39 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   transition: $global-transition;
 }
 
+/* text colours */
+/* Target all headings */
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.page__content h2,
+.page__content h3 {
+  color: #859e5e;
+}
+
+/* Target bold text */
+strong, b,
+.page__content strong,
+.page__content b {
+  color: #859e5e; 
+}
+
+/* Dark mode overrides */
+html[data-theme="dark"] {
+  h1, h2, h3, h4, h5, h6,
+  .page__title,
+  .page__content h2,
+  .page__content h3 {
+    color: #db6793;
+  }
+
+  strong, b,
+  .page__content strong,
+  .page__content b {
+    color: #db6793;
+  }
+}
+/* text colours */
+
 /* ==========================================================================
    PRINT STYLES
    ========================================================================== */
