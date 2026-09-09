@@ -408,13 +408,24 @@ h3.author__name,
   line-height: 1.2;
 }
 
-.author__bio,
-.author__urls-wrapper,
-.author__urls li,
-.author__urls a,
-.sidebar p,
-.sidebar li {
-  font-size: 0.75rem;
+.sidebar .author__bio,
+.author__content .author__bio {
+  font-size: 1rem;
   line-height: 1;
+}
+
+.author__urls-wrapper li,
+.author__urls-wrapper a,
+.sidebar .author__urls li,
+.sidebar .author__urls a,
+.author__urls.social-icons li,
+.author__urls.social-icons a {
+  font-size: 0.82rem; 
+  line-height: 1.35;
+}
+
+.author__urls-wrapper i,
+.sidebar .author__urls i {
+  font-size: 0.85rem;
 }
 /* hope this works out... */
