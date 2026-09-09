@@ -9,7 +9,7 @@ permalink: /
 ## <i class="fas fa-brain"></i> Neuroscience Projects
 
 * **Predictive Mouse Ultrasonic Vocalization Sequences: Altered Learning from Prediction Errors in Mouse Models of ASDs**  
-  * Prof. Sharba Bandyopadhyay, Information Processing Lab, IIT Kharagpur (June 2026-May 2027)
+  * **Prof. Sharba Bandyopadhyay**, Information Processing Lab, IIT Kharagpur (June 2026-May 2027)
   * 5th Year Master's Project
   * Designing and updating the experiment protocol  
   * Behaviour experiment: Go No-Go Oddball paradigm using Mouse Ultrasonic Vocalisation Sequences  
@@ -18,7 +18,7 @@ permalink: /
   * MATLAB programming language
 
 * **Neuroanatomical Anterograde and Retrograde Tracing between ACC and AC in Mouse Brain**  
-  * Prof. Sharba Bandyopadhyay, Information Processing Lab, IIT Kharagpur (June 2026-May 2027)
+  * **Prof. Sharba Bandyopadhyay**, Information Processing Lab, IIT Kharagpur (June 2026-May 2027)
   * 5th Year Master's Project 
   * Injection of Dextran and Cholera Toxin B in Mouse Anterior Cingulate Cortex and Auditory Cortex  
   * Stereotaxic Apparatus, Nanoject II injector  
@@ -26,13 +26,13 @@ permalink: /
   * Slide preparation and Imaging using microscope  
 
 * **Computational Neuroscience Project**  
-  * Prof. Sharba Bandyopadhyay, Information Processing Lab, IIT Kharagpur (June 2026-May 2027)
+  * **Prof. Sharba Bandyopadhyay**, Information Processing Lab, IIT Kharagpur (June 2026-May 2027)
   * 5th Year Master's Project
   * Simulating Emergence of Spontaneous Assembly Activity in Developing Neural Networks without Afferent Input  
   * MATLAB programming language  
 
 * **CNN for Astrocyte Images**
-  * Prof. Swanand Marathe, Neuroscience Lab, IIT Dharwad (Jan 2026-Apr 2026)  
+  * **Prof. Swanand Marathe**, Neuroscience Lab, IIT Dharwad (Jan 2026-Apr 2026)  
   * 4th year, 8th Semester Minor Project
   * Processed Astrocyte Images  
   * Used K-means clustering  
