@@ -20,15 +20,13 @@ permalink: /
 * **Neuroanatomical Anterograde and Retrograde Tracing between ACC and AC in Mouse Brain**  
   * **Prof. Sharba Bandyopadhyay**, Information Processing Lab, IIT Kharagpur (June 2026-May 2027)
   * 5th Year Master's Project 
-  * Injection of Dextran and Cholera Toxin B in Mouse Anterior Cingulate Cortex and Auditory Cortex  
-  * Stereotaxic Apparatus, Nanoject II injector  
-  * Perfusion with Paraformaldehyde  
-  * Slide preparation and Imaging using microscope  
+  * Injection of Dextran and Cholera Toxin B in Mouse Anterior Cingulate Cortex 
+  * Stereotaxic Apparatus, Hamilton Syringe
 
 * **Computational Neuroscience Project**  
   * **Prof. Sharba Bandyopadhyay**, Information Processing Lab, IIT Kharagpur (June 2026-May 2027)
   * 5th Year Master's Project
-  * Simulating Emergence of Spontaneous Assembly Activity in Developing Neural Networks without Afferent Input  
+  * will add
   * MATLAB programming language  
 
 * **CNN for Astrocyte Images**
