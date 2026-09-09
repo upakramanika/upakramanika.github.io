@@ -431,3 +431,14 @@ h3.author__name,
 }
 */
 /* hope this works out... */
+
+/* Custom text highlight: only changes background, preserves text color */
+::selection {
+  background-color: var(--global-selection-bg, #ffffff);
+  color: inherit;
+}
+
+::-moz-selection {
+  background-color: var(--global-selection-bg, #ffffff);
+  color: inherit;
+}
