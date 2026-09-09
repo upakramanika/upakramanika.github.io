@@ -4,6 +4,29 @@ title: ""
 author_profile: true
 permalink: /
 ---
+
+## <i class="fas fa-graduation-cap"></i> Education
+
+* **BS-MS (5 year Integrated)**  
+  * **IIT Dharwad**, Interdisciplinary Sciences (December 2022 - July 2027)  
+  * Major: Biology  
+  * Minor: Data Science and Artificial Intelligence  
+  * CPI: 8.61/10  
+  * Medium of Instruction: English  
+
+* **ISC (Class 12)**  
+  * The Heritage School (April 2020 - April 2022)  
+  * Stream: Science (Physics, Chemistry, Mathematics, Biology)  
+  * Score: 90.25%  
+  * Medium of Instruction: English  
+
+* **ICSE (Class 10)**  
+  * The Heritage School (April 2018 - April 2020)  
+  * Stream: Science  
+  * Score: 94.40%  
+  * Medium of Instruction: English  
+
+---
 ![neuro doodles](/images/neuro.png)
 
 ## <i class="fas fa-brain"></i> Neuroscience Projects
@@ -135,29 +158,6 @@ permalink: /
 
 ---
 
-## <i class="fas fa-graduation-cap"></i> Education
-
-* **BS-MS (5 year Integrated)**  
-  * IIT Dharwad, Interdisciplinary Sciences (December 2022 - July 2027)  
-  * Major: Biology  
-  * Minor: Data Science and Artificial Intelligence  
-  * CPI: 8.61/10  
-  * Medium of Instruction: English  
-
-* **ISC (Class 12)**  
-  * The Heritage School (April 2020 - April 2022)  
-  * Stream: Science (Physics, Chemistry, Mathematics, Biology)  
-  * Score: 90.25%  
-  * Medium of Instruction: English  
-
-* **ICSE (Class 10)**  
-  * The Heritage School (April 2018 - April 2020)  
-  * Stream: Science  
-  * Score: 94.40%  
-  * Medium of Instruction: English  
-
----
-
 ![extra doodles](/images/xtra.png)
 
 ## <i class="fas fa-music"></i> Extra Academic Activities
@@ -167,7 +167,10 @@ permalink: /
 * Wellness Representative of IIT Dharwad  
 * Secretary of Abhikalpa, Design Club of IIT Dharwad  
 * Member of Technical Council of IIT Dharwad  
-* Second Violinist of Kolkata Symphony Orchestra, Grade 5 ABRSM  
+* Second Violinist of Kolkata Symphony Orchestra, Grade 5 ABRSM
+* Won the Solo and Duet Music Competitions (twice)
+* Won a few Poetry Writing Contests (will add certificates)
+* Was an active member of Book Club 
 
 ---
 
