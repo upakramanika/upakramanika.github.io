@@ -38,7 +38,7 @@ permalink: /
   * Used K-means clustering  
   * Built CNN (Convolutional Neural Network) to Classify Astrocytes  
   * Python programming language
-  * [I made this presentation for this project](https://docs.google.com/presentation/d/17sIf6ADK_jxlvjnijrgSdMp8GA3fmN6DrzFHBVKb_O8/edit?usp=sharing)
+  * [I made this presentation for this project](https://docs.google.com/presentation/d/17sIf6ADK_jxlvjnijrgSdMp8GA3fmN6DrzFHBVKb_O8/edit?usp=sharing){:target="_blank"}
 
 ---
 
@@ -48,7 +48,7 @@ permalink: /
   * **Prabuchandran K J**, IIT Dharwad (Jan 2024-April 2024)  
   * Agentic AI with two Agents  
   * Alpha-Beta Pruning  
-  * Quiescent Search [explanation](https://docs.google.com/presentation/d/1CBs5TYRkJIOmzxvIoShLzFcqEI0x7cKvkNQCQK904SA/edit?usp=sharing)
+  * Quiescent Search [explanation](https://docs.google.com/presentation/d/1CBs5TYRkJIOmzxvIoShLzFcqEI0x7cKvkNQCQK904SA/edit?usp=sharing){:target="_blank"}
 
 * **Math for Data Science Project**  
   * **Prabuchandran K J**, IIT Dharwad (Aug 2024 - Nov 2024)  
@@ -98,7 +98,7 @@ permalink: /
   * Geneious Prime  
   * Familiarised with: Uniprot, SOPMA, JPred, RCSB, RNACentral database, RNAstructure, RNAFold WebServer, Interpro, PSIPRED 4.0, AlphaFold  
   * BLASTn, BLASTX, BLASTP, Predict RNA Secondary Structure, Protein domains, Predict protein secondary structure, Predict protein folding
-  * [Made a super chaotic presentation for this course haha](https://docs.google.com/presentation/d/1mwksRV2W0rgIfgF0Yk1aWqKXXTgIVPrQ/edit?usp=sharing&ouid=110792344000961218892&rtpof=true&sd=true)
+  * [Made a super chaotic presentation for this course haha](https://docs.google.com/presentation/d/1mwksRV2W0rgIfgF0Yk1aWqKXXTgIVPrQ/edit?usp=sharing&ouid=110792344000961218892&rtpof=true&sd=true){:target="_blank"}
 
 ---
 
@@ -115,23 +115,23 @@ permalink: /
 ## <i class="fas fa-user-friends"></i> Referees
 
 * **Prof. Sharba Bandyopadhyay**    
-  [Personal Page](https://informationprocessinglab.weebly.com/)  
+  [Personal Page](https://informationprocessinglab.weebly.com/){:target="_blank"}
   Associate Professor, Electronics and Electrical Communication Engineering    
   Indian Institute of Technology, Kharagpur  
 
 * **Prof. Swanand Marathe**    
-  [Personal Page](https://sites.google.com/iitdh.ac.in/swanandlab/home)     
+  [Personal Page](https://sites.google.com/iitdh.ac.in/swanandlab/home){:target="_blank"} 
   HOD, Biosciences and Bioengineering    
   Indian Institute of Technology, Dharwad  
 
 * **Prof. Subhamoy Maitra**    
-  [Personal Page](https://isi.irins.org/profile/61161)   
+  [Personal Page](https://isi.irins.org/profile/61161){:target="_blank"}
   Professor (Higher Administrative Grade)    
   Head, Applied Statistics Unit    
   Indian Statistical Institute, Kolkata
 
 * **Prof. Sudhanshu Shukla**    
-  [Personal Page](https://www.sudhanshukla.com/)   
+  [Personal Page](https://www.sudhanshukla.com/){:target="_blank"}
   Associate Professor, Biosciences and Bioengineering 
   Indian Institute of Technology, Dharwad  
 
