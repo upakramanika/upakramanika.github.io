@@ -356,5 +356,12 @@
 .sidebar .author__urls li,
 .sidebar .author__urls a,
 .author__urls-wrapper li {
-  font-size: 1.05rem;
+  font-size: 0.7rem;
+}
+
+/* Pronouns Font Size */
+.author__pronouns,
+.sidebar .author__pronouns {
+  font-size: 0.7rem ; /* Set to 0.75rem (default metadata size) or 1rem (body size) */
+  line-height: 1 ;
 }
