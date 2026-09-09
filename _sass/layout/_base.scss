@@ -398,3 +398,25 @@ html[data-theme="dark"] {
       display: none;
     }
   }
+
+/* hope this works out... */
+.author__name,
+h3.author__name,
+.sidebar .author__name {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  color: #c15285 !important;
+}
+
+.author__bio,
+.author__urls-wrapper,
+.author__urls li,
+.author__urls a,
+.sidebar p,
+.sidebar li {
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  color: #280b31 !important;
+}
+/* hope this works out... */
