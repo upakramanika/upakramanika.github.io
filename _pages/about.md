@@ -49,7 +49,7 @@ permalink: /
 * **Computational Neuroscience Project**  
   * **Prof. Sharba Bandyopadhyay**, Information Processing Lab, IIT Kharagpur (June 2026-May 2027)
   * 5th Year Master's Project
-  * will add
+  * Modelling the Emergence of Spontaneous Assembly Activity in Developing Neural Networks without Afferent Input
   * MATLAB programming language  
 
 * **CNN for Astrocyte Images**
@@ -168,9 +168,9 @@ permalink: /
 * Secretary of Abhikalpa, Design Club of IIT Dharwad  
 * Member of Technical Council of IIT Dharwad  
 * Second Violinist of Kolkata Symphony Orchestra, Grade 5 ABRSM
-* Won the Solo and Duet Music Competitions (twice)
-* Won a few Poetry Writing Contests (will add certificates)
-* Was an active member of Book Club 
+* Won the Solo and Duet Music Competitions at IIT Dharwad
+* Won a few Poetry and Story Writing Contests at IIT Dharwad
+* Was an active member of Book Club at IIT Dharwad
 
 ---
 
