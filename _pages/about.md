@@ -4,9 +4,7 @@ title: ""
 author_profile: true
 permalink: /
 ---
-
 ## <i class="fas fa-graduation-cap"></i> Education
-
 * **BS-MS (5 year Integrated)**  
   * **IIT Dharwad**, Interdisciplinary Sciences (December 2022 - July 2027)  
   * Major: Biology  
