@@ -25,7 +25,7 @@ permalink: /
   * Medium of Instruction: English  
 
 ---
-![neuro doodles](/images/neuro.png)
+<img src="/images/neuro.png" alt="neuro doodles" width="2500" height="500" loading="lazy" decoding="async">
 
 ## <i class="fas fa-brain"></i> Neuroscience Projects
 
@@ -91,7 +91,7 @@ permalink: /
 
 ---
 
-![biology and computation doodles](/images/bio_comp.png)
+<img src="/images/bio_comp.png" alt="biology and computation doodles" width="2500" height="500" loading="lazy" decoding="async">
 
 ## <i class="fas fa-dna"></i> Biology Projects and Experiences
 
@@ -156,7 +156,7 @@ permalink: /
 
 ---
 
-![extra doodles](/images/xtra.png)
+<img src="/images/xtra.png" alt="extra doodles" width="2500" height="500" loading="lazy" decoding="async">
 
 ## <i class="fas fa-music"></i> Extra Academic Activities
 
