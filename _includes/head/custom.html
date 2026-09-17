@@ -1,7 +1,8 @@
 {% include base_path %}
 
 <!-- start custom head snippets -->
-
+<!-- Responsive / cross-browser layout fixes. Must load after main.css. -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/responsive-fixes.css">
 <!-- Support for Academicons -->
 <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></noscript>
@@ -17,6 +18,7 @@
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="var(--global-bg-color)"/>
+<meta name="theme-color" content="#f2e3ee" media="(prefers-color-scheme: light)"/>
+<meta name="theme-color" content="#364230" media="(prefers-color-scheme: dark)"/>
 
 <!-- end custom head snippets -->
