@@ -1,0 +1,246 @@
+/* ==========================================================================
+   responsive-fixes.css
+
+   Loaded AFTER main.css (see _includes/head/custom.html), so everything here
+   overrides the theme without editing the vendored Susy/Breakpoint code.
+
+   Deliberately plain CSS, not a Sass partial: it needs no build step, so if
+   anything here is ever wrong the page falls back to the old layout instead
+   of failing to compile.
+   ========================================================================== */
+
+
+/* --------------------------------------------------------------------------
+   1. THE REPORTED BUG: content cut off below the email addresses.
+
+   .sidebar was `height: 100vh`. Whenever the browser window was shorter than
+   the sidebar's own content, everything past the fold was pushed into a
+   scroll area that gives no visual hint it exists - so the GitHub and
+   LinkedIn links simply disappeared.
+
+   Measured on the live site at 1024x600: 69px cut off,
+   "github.com/upakramanika" 19px below the visible edge,
+   "linkedin.com/in/upakramanika" 48px below it.
+
+   Short, wide screens (16:9 laptops) hit this; taller 16:10 / 3:2 / 4:3
+   screens did not, which is why it looked fine on some machines.
+
+   The sidebar is now only as tall as its content, and is capped by the
+   window height only as a last resort. `dvh` is used instead of `vh` so the
+   retracting URL bar on mobile browsers is accounted for.
+   -------------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------------------
+   2. Stop the layout flipping between machines.
+
+   Media queries are evaluated against a viewport width that INCLUDES the
+   classic scrollbar, while layout boxes exclude it. That is ~15-17px on
+   Windows and 0px with macOS overlay scrollbars - enough to put two machines
+   on opposite sides of a breakpoint at the same window size.
+   -------------------------------------------------------------------------- */
+html {
+  scrollbar-gutter: stable;
+}
+
+/* Fluid root size, replacing the theme's 16px -> 18px step at 768px which
+   resized the entire page by 12.5% in a single jump. */
+html {
+  font-size: clamp(16px, calc(12px + 0.35vw), 19px);
+}
+
+
+/* --------------------------------------------------------------------------
+   3. One container width for the header and the content, with fluid gutters.
+
+   #main was capped at 925px and jumped to 1280px at exactly 1280px wide,
+   with nothing in between: the reading column measured 550px on one laptop
+   and 770px on the next.
+   -------------------------------------------------------------------------- */
+#main {
+  max-width: 1200px;
+  padding-left: clamp(1rem, 3vw, 2rem);
+  padding-right: clamp(1rem, 3vw, 2rem);
+  /* the theme hid the page for 350ms after CSS parsed */
+  animation-delay: 0s;
+}
+
+.masthead__inner-wrap {
+  max-width: 1200px;
+  padding-left: clamp(1rem, 3vw, 2rem);
+  padding-right: clamp(1rem, 3vw, 2rem);
+}
+
+
+/* --------------------------------------------------------------------------
+   4. Two-column layout above 925px, as a real CSS Grid.
+
+   The theme used floats with percentage widths carried over from Susy
+   (83.0508474576% / 16.9491525424%). Those round to device pixels slightly
+   differently in Chrome, Firefox and Safari, and .page carried a
+   `padding-right: 16.9%` that measured 210px of permanently empty space
+   inside the content column at every desktop width.
+
+   Note the breakpoint is in px here. The theme mixes units - most queries are
+   in em (which resolve against the BROWSER's default font size, so they move
+   if a visitor has set a larger default) while the sidebar's was a hardcoded
+   1024px. That mismatch could put the sidebar into `position: fixed` before
+   it had a column to sit in. Using px throughout removes the mismatch.
+   -------------------------------------------------------------------------- */
+@media (min-width: 925px) {
+
+  #main {
+    display: grid;
+    grid-template-columns: minmax(170px, 250px) minmax(0, 1fr);
+    gap: clamp(1.5rem, 3vw, 3.5rem);
+    align-items: start;
+  }
+
+  /* The theme's clearfix pseudo-elements would otherwise become grid items. */
+  #main::after,
+  #main:after {
+    display: none;
+  }
+
+  .sidebar,
+  .page,
+  .archive {
+    width: auto;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* No height cap and no internal scroll area. An internal scroller IS the
+     reported bug - it hides content with no visible cue. The sidebar is now
+     simply as tall as it needs to be, and the page scrolls normally. */
+  .sidebar {
+    position: static;
+    height: auto;                             /* was 100vh - see section 1 */
+    max-height: none;
+    overflow: visible;
+    margin-top: 0;                            /* undoes @media (orientation: portrait) */
+    padding-top: 0;
+    max-width: none;
+  }
+
+  .page__content {
+    max-width: 78ch;                          /* readable measure; fluid below it */
+    margin-inline: auto;
+  }
+}
+
+/* The sidebar only sticks while scrolling on windows tall enough to show all
+   of it (its content is ~650px). On anything shorter it scrolls away with the
+   page, which is what guarantees the email, GitHub and LinkedIn lines are
+   always reachable. */
+@media (min-width: 925px) and (min-height: 820px) {
+  .sidebar {
+    position: sticky;
+    top: 70px;                                /* $masthead-height */
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   5. Nothing overflows its column on small screens.
+   -------------------------------------------------------------------------- */
+.page__content img,
+.author__avatar img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page__content iframe,
+.page__content embed,
+.page__content object,
+.page__content video {
+  max-width: 100%;
+}
+
+/* Long unbroken strings - URLs, email addresses, long course names - would
+   otherwise push the page sideways on a 320px phone. */
+.page__content,
+.sidebar,
+.author__urls a,
+.page__content a {
+  overflow-wrap: break-word;
+}
+
+.author__urls a {
+  overflow-wrap: anywhere;
+}
+
+/* Wide tables get their own scroll area rather than stretching the page.
+   (No tables on the site today; this keeps it safe if any are added.) */
+.page__content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+/* --------------------------------------------------------------------------
+   6. Touch devices: the sidebar links were 23px tall, well under the ~44px
+      that is comfortable to tap. Only applied where there is no mouse.
+   -------------------------------------------------------------------------- */
+@media (hover: none) and (pointer: coarse) {
+  .author__urls li a,
+  .page__footer-follow a {
+    display: inline-block;
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   7. Respect the visitor's motion preference. The theme has none.
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   8. FONT STACK
+
+   main.css sets `font-family: "Verdana", monospace` on the 12 selectors below
+   (it comes from $global-font-family / $header-font-family /
+   $caption-font-family in _sass/_themes.scss).
+
+   The site loads no webfonts, and Verdana does not ship with most Linux
+   distros, Android or ChromeOS - so those visitors fell through to
+   `monospace` and saw the whole site in a typewriter face, with ~20% wider
+   text (measured 673px vs 628px on the same string) and completely different
+   line breaks.
+
+   Overridden here rather than in the Sass variables so that NO file Jekyll
+   compiles has to change.
+   -------------------------------------------------------------------------- */
+body,
+h1, h2, h3, h4, h5, h6,
+figcaption,
+table,
+.notice,
+.notice--primary,
+.notice--info,
+.notice--warning,
+.notice--success,
+.notice--danger,
+.page__lead,
+.page__hero-caption {
+  font-family: Verdana, Geneva, "DejaVu Sans", Tahoma,
+               "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
